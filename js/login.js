@@ -12,7 +12,7 @@ document.getElementById('login-btn').addEventListener("click", function(event){
     // A TEMPORARY AND NOT RECOMENDED WAY TO CHECK PHONE AND PIN;
     if(phoneNumber === '5' && pinNumber === '1234'){
         console.log('You are logged in');
-        window.location.href = '/homepage.html';
+        window.location.href = '../homepage.html';
     } 
     // step 5 = allow user to use the website;
     else{
